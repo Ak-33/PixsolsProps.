@@ -1,0 +1,22 @@
+<label for="toggle">Toggle Dropdown</label>
+<input type="checkbox" id="toggle">
+
+<ul class="dropdown-menu">
+  <li><a href="#">Option 1</a></li>
+  <li><a href="#">Option 2</a></li>
+  <li><a class ="link" href="mailto:Legoscota@gmail.com">Contact</a></li>
+</ul>
+
+CSS 
+
+.dropdown-menu {
+  display: none;
+}
+
+#toggle:checked ~ .dropdown-menu {
+  display: block;
+}
+
+#toggle{
+   display: none;
+}
