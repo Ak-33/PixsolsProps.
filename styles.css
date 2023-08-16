@@ -395,11 +395,19 @@ background-color: rgb(255, 255, 255,0.5);
 	width: 75%; 
 	
 }
+
 .Mmtitle{
 font-size: 125%;
 text-align: center;
 }
 
+.utitle{
+	
+	margin: auto;
+	margin-top: 1.5%;	
+	width: 75%; 
+
+}
 
 body{ 
 margin: 0 auto;
