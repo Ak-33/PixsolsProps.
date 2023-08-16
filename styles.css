@@ -266,6 +266,24 @@ border-top-color:purple;
 filter: brightness(75%); 
 }
 
+.axe{
+float: right;
+width: 29.5%;
+height: auto;
+margin-left: 4%;
+margin-top: 4%;
+border-style: solid;
+border-color: black;
+transition: transform .5s;
+}
+
+.axe:hover{
+border-style: solid;
+border-color: #82F7F7;
+ -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+filter: brightness(75%); 
+}
 
 .saber123 { 
   float: left;
@@ -321,8 +339,6 @@ border-color: black;
 transition: transform .5s;
 }
 
-.Psaber{ 
-margin-left: 45%;}
 
 	 
 @media only screen and (max-width:500px) {
