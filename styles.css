@@ -312,6 +312,16 @@ filter: brightness(75%);
   transition: transform .5s;
 }	
 
+.saber5 {
+  width: 4.7%;
+  height: auto;
+  margin-left: 2%;
+ border-style: solid;
+  border-color: black;
+  transition: transform .5s;
+}	
+
+
 .Dhammer{
 padding-left: 45%;
 }
