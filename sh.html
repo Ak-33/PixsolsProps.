@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<script src="slideshow.js"></script>
 <div class = "dmain">
 <div id= "dmenu">
 <ul id= "menu"> 
@@ -53,12 +54,16 @@ What I did instead was wrap it on the exercise ball and I left it in my bathroom
 After about two weeks the shield was pretty curved and I was able to assemble it.
 </p>
 
-<figure>
-<img class = "leftIm" src="pics/sheild/front.jpg" alt="sheild 1">
-</figure>
-<figure>
-<img class = "rightIm" src="pics/sheild/back.jpg" alt="sheild 2">
-</figure>
+
+<div class="slide_show">
+  <img class="mySlides16-9" src="pics/sheild/front.jpg" alt= "image of front">
+  <img class="mySlides16-9" src="pics/sheild/back.jpg"  alt= "image of back">
+ 
+  <button class="slide_buttonL" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="slide_buttonR" onclick="plusDivs(1)">&#10095;</button>
+</div>
 
 
 </div>
+
+</body>

@@ -12,20 +12,25 @@ background-image: url("pics/under-background.png");
 #menu{ 
 background: white; 
 background-image: url("pics/background-menu.jpg"); 
-font-size: 215%;
+font-size: 220%;
 margin-top: 6%;
 float: left;
 margin-left: 1%;
 padding-top: 1%;
 padding-left: 3%;
 padding-right: 4%;
-padding-bottom: 75%; 
+padding-bottom: 45%; 
 border-style: outset;
 border-width: 6px;
 border-top-color:gray;
 border-left-color:gray;
 border-right-color:black;
 border-bottom-color:black;
+}
+
+#dmenu{
+width: 40%;	
+padding-left: 2%;
 }
 
 .mobileMenu{
@@ -40,11 +45,48 @@ border-bottom-color:black;
   display: block;
 }
 
-
-#dmenu{
-width: 35%;	
-padding-left: 2%;
+.mySlides16-9{
+display:none;
+width: 90%;
+height: auto;
+border-style: solid;
+border-color: black;
 }
+
+.slide_show {
+position: relative;
+margin-left: 37%;
+margin-top: 2%;
+}
+
+.slide_buttonL{
+border-style: none;	
+position: absolute;
+margin-top: -28%;
+margin-left: 0.3%;
+font-size:165%;
+background-color: #969997;
+}
+
+.slide_buttonL:hover {
+background-color: rgb(0, 0, 0,0.8);
+color: white;
+transition: all .1s ease-in;}
+
+.slide_buttonR{
+border-style: none;
+position: absolute;
+margin-top: -28%;
+margin-left: 87.2%;
+font-size:165%;
+background-color: #969997;
+}
+
+.slide_buttonR:hover {
+background-color: rgb(0, 0, 0,0.8);
+color: white;
+transition: all .1s ease-in;}
+
 
 .dropD{
 width: 0%;
@@ -54,9 +96,9 @@ visibility: hidden;
 
 .title{
 margin-left: 50%;
+margin-top: 1%;
 background-color: blue;
 width: 35%;
-margin-top: 1%;
 border-style: outset;
 border-width: 5px;
 border-top-color:gray;
@@ -148,7 +190,7 @@ margin-top: 2%;
 float: left;
 width: 30%;
 height: auto;
-margin-left: 4%;
+margin-left: 7%;
 border-style: solid;
 transition: transform .5s; 
 border-color: black;
@@ -188,7 +230,7 @@ filter: brightness(75%);
 float: left;
 width: 30%;
 height: auto;
-margin-left: 4%;
+margin-left: 7%;
 margin-top: 4%;
 border-style: solid;
 border-color: black;
@@ -226,8 +268,8 @@ filter: brightness(75%);
 float: left;
 width: 30%;
 height: auto;
-margin-left: 4%;
-margin-top: 4%;
+margin-left: -67%;
+margin-top: 25%;
 border-style: solid;
 border-color: black;
 transition: transform .5s;
@@ -266,18 +308,18 @@ border-top-color:purple;
 filter: brightness(75%); 
 }
 
-.axe{
-float: right;
-width: 29.5%;
+.imaxe{
+float: left;
+width: 30%;
 height: auto;
-margin-left: 4%;
+margin-left: 7%;
 margin-top: 4%;
 border-style: solid;
 border-color: black;
 transition: transform .5s;
 }
 
-.axe:hover{
+.imaxe:hover{
 border-style: solid;
 border-color: #82F7F7;
  -ms-transform: scale(1.1); /* IE 9 */
