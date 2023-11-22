@@ -454,11 +454,9 @@ text-align: center;
 }
 
 .utitle{
-	
 	margin: auto;
 	margin-top: 1.5%;	
 	width: 75%; 
-
 }
 
 body{ 
@@ -496,20 +494,6 @@ margin-left: 6%;
 	width: 45%;
 }
 
-.saber2{
-	width: 45%;
-}
-
-.s123{
-padding-left: 0%;
-}
-
-.saber4{
-width: 55%;
-margin-right: 25%;
-float: clear;
-}
-
 .imsh{
 	width: 45%;
 }
@@ -518,31 +502,23 @@ float: clear;
 	width: 45%;
 }
 
-.imchaos{
-	width: 45%;
-}
-
 .imhat{
 	width: 45%;
 }
 
-.Dhammer{
-padding-left: 25%;
-}
-
-.saber123{
-width: 45%;
-}
-
-.kaos{
-padding-left: 10%;
-}
-
-
-.leftIm{
+.imchaos{
 	width: 45%;
+	margin-left: 7%;
+	margin-top: 4%; 
 }
 
-.rightIm{
+.imaxe{ 
 	width: 45%;
+	float: right;
+	margin-top: -26.8%;
+	
+	
 }
+
+
+
