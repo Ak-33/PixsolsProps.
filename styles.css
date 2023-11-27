@@ -264,27 +264,6 @@ border-color: gold;
 filter: brightness(75%); 
 }
 
-.imchaos{
-float: left;
-width: 30%;
-height: auto;
-margin-left: -67%;
-margin-top: 25%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imchaos:hover{
-border-style: solid;
-border-bottom-color: red;
-border-right-color: red;
-border-left-color: orange;
-border-top-color:orange;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
 
 .saber2{
 float: left;
@@ -308,12 +287,34 @@ border-top-color:purple;
 filter: brightness(75%); 
 }
 
-.imaxe{
-float: left;
+
+.imchaos{
+clear: both;
+float: left; 
 width: 30%;
 height: auto;
-margin-left: 7%;
-margin-top: 4%;
+border-style: solid;
+border-color: black;
+transition: transform .5s;
+}
+
+.imchaos:hover{
+border-style: solid;
+border-bottom-color: red;
+border-right-color: red;
+border-left-color: orange;
+border-top-color:orange;
+ -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+filter: brightness(75%); 
+}
+
+
+.imaxe{
+float: left;
+margin-left: 3%;
+width: 30%;
+height: auto;
 border-style: solid;
 border-color: black;
 transition: transform .5s;
@@ -327,53 +328,8 @@ border-color: #82F7F7;
 filter: brightness(75%); 
 }
 
-.saber123 { 
-  float: left;
-  width: auto;
-  height: 1%;
-  margin-left: 4%;
-  margin-top: 4%;
-  border-style: solid;
-  border-color: black;
-  max-width: 25%;
-}
-
-.s123 {
-  padding-left: 37%;
-}
-
-.saber4 {
-  margin-right: 11%;
-  float: right;
-  width: 45%;
-  height: auto;
-  margin-left: 4%;
-  margin-top: 4%;
-  border-style: solid;
-  border-color: black;
-  transition: transform .5s;
-}	
-
-.saber5 {
-  width: 4.7%;
-  height: auto;
-  margin-left: 2%;
- border-style: solid;
-  border-color: black;
-  transition: transform .5s;
-}	
-
-
-.Dhammer{
-padding-left: 45%;
-}
-.kaos{
-padding-left: 35%;
-}
-
 .rightIm{
 float: right;
-float: clear;
 width: 30%;
 height: auto;
 border-style: solid;
