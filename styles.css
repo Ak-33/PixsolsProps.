@@ -265,9 +265,9 @@ filter: brightness(75%);
 }
 
 
-.saber2{
+.under-saber{
 float: left;
-width: 29.5%;
+width: 30%;
 height: auto;
 margin-left: 4%;
 margin-top: 4%;
@@ -276,7 +276,7 @@ border-color: black;
 transition: transform .5s;
 }
 
-.saber2:hover{
+.under-saber:hover{
 border-style: solid;
 border-bottom-color: red;
 border-right-color: purple;

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<script src="slideshow.js"></script>
 <div class = "dmain">
 <div id= "dmenu">
 <ul id= "menu"> 
@@ -66,22 +67,17 @@ The light side of the saber will have white highlights, will sport a brown leath
  This force user now travels the galaxy helping ones in need using all the powers that the force provides.  
 </p>
 
-<div>
 
- 
- <figure>
-    <img class="leftIm" src="pics/saber_v2/schematic.png" alt="An image of my custom light saber">
-  </figure>
-<figure>
-    <img class="rightIm" src="pics/saber_v2/saber_hilt.jpg" alt="An image of my custom light saber">
-  </figure>
+ <div class="slide_show">
+  <img class="mySlides16-9" src="pics/saber_v2/schematic.png" alt= "In progress">
+  <img class="mySlides16-9" src="pics/saber_v2/saber_hilt.jpg"  alt= "In progress">
+  <img class="mySlides16-9" src="pics/saber_v2/internal_schematic.png"  alt= "In progress">
+  <img class="mySlides16-9" src="pics/saber_v2/3D_modle.PNG"  alt= "In progress">
   
-  <figure>
-    <img class="saber5" src="pics/saber_v2/internal_schematic.png" alt="An image of my custom light saber">
-  </figure>
-  
-  </div>
-  
+  <button class="slide_buttonL" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="slide_buttonR" onclick="plusDivs(1)">&#10095;</button>
 </div>
-
-</body>
+ 
+ </div>
+ 
+ </body>
