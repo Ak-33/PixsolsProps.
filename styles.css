@@ -264,30 +264,6 @@ border-color: gold;
 filter: brightness(75%); 
 }
 
-
-.under-saber{
-float: left;
-width: 30%;
-height: auto;
-margin-left: 4%;
-margin-top: 4%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.under-saber:hover{
-border-style: solid;
-border-bottom-color: red;
-border-right-color: purple;
-border-left-color: red;
-border-top-color:purple;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-
 .imchaos{
 clear: both;
 float: left; 
@@ -327,6 +303,54 @@ border-color: #82F7F7;
   -webkit-transform: scale(1.1); /* Safari 3-8 */
 filter: brightness(75%); 
 }
+
+/* under */
+.split-saber{
+float: left;
+width: 30%;
+height: auto;
+margin-left: 4%;
+margin-top: 4%;
+border-style: solid;
+border-color: black;
+transition: transform .5s;
+}
+
+.split-saber:hover{
+border-style: solid;
+border-bottom-color: red;
+border-right-color: purple;
+border-left-color: red;
+border-top-color:purple;
+ -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+filter: brightness(75%); 
+}
+
+.damaged-saber{
+float: right;
+width: 30%;
+height: auto;
+margin-left: 4%;
+margin-top: 4%;
+border-style: solid;
+border-color: black;
+transition: transform .5s;
+}
+
+.damaged-saber:hover{
+border-style: solid;
+border-color: yellow;
+ -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+filter: brightness(75%); 
+}
+
+
+
+
+/* done under */
+
 
 .rightIm{
 float: right;
