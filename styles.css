@@ -33,17 +33,11 @@ width: 40%;
 padding-left: 2%;
 }
 
-.mobileMenu{
-	display: none;
-}
-	
- .dropdown-menu {
-  display: none;
+.Dmobile_menu{
+display: none; 
 }
 
-#toggle:checked ~ .dropdown-menu {
-  display: block;
-}
+
 
 .mySlides16-9{
 display:none;
@@ -86,13 +80,6 @@ background-color: #969997;
 background-color: rgb(0, 0, 0,0.8);
 color: white;
 transition: all .1s ease-in;}
-
-
-.dropD{
-width: 0%;
-height: 0%;
-visibility: hidden; 
-}
 
 .title{
 margin-left: 50%;
@@ -158,9 +145,6 @@ background-color: black;
 color: white;
 }
 
-th{
-color: white;
-}
  
  .ufoot{
 float:clear;
@@ -379,7 +363,13 @@ transition: transform .5s;
 display: none;
 	    }
 			
+.Dmobile_menu{
+   display: inline-block;
+  }
+			
 .dropdown-menu{
+display: none;
+position: absolute;	
 background-image: url("pics/background-menu.jpg"); 
 border-style: outset;
 border-width: 6px;
@@ -387,6 +377,18 @@ border-top-color:gray;
 border-left-color:gray;
 border-right-color:black;
 border-bottom-color:black;
+width: 60%;
+height: 65%; 
+margin-top: 17%; 
+margin-left: 8%; 
+
+
+}
+
+#toggle:checked ~ .dropdown-menu {
+  display: block;
+  
+   
 }
 
 #toggle{
@@ -422,7 +424,8 @@ background-color: rgb(255, 255, 255,0.5);
 
 
 .title{
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto; 
 	margin-top: 1.5%;	
 	width: 75%; 
 	
@@ -470,32 +473,66 @@ margin-left: 6%;
 
 /* images */ 
 
+.slide_show{
+clear: both; 
+margin-left: 2%;
+margin-right: 2%; 
+position: absolute;
+margin-top: 2%;
+}
+	
+
+.slide_buttonR{
+margin-left: 85%;
+}
+
 .imsaber{
 	width: 45%;
+	margin-left: auto; 
+	margin-right: auto; 
+	
 }
 
 .imsh{
 	width: 45%;
-}
+	margin-left: auto; 
+	margin-right: auto; 
+	}
 
 .imhammer{
 	width: 45%;
+	margin-left: auto; 
+	margin-right: auto; 
+	
 }
 
 .imhat{
 	width: 45%;
+	margin-left: auto; 
+	margin-right: auto; 
+	
 }
 
 .imchaos{
-	width: 45%;
-	margin-left: 7%;
-	margin-top: 4%; 
+width: 45%;
+margin-left: auto; 
+margin-right: auto; 
+float: left;
+height: auto;
+margin-top: 4%;
+	 
+	
 }
 
-.imaxe{ 
-	width: 45%;
-	float: right;
-	margin-top: -26.8%;
+.imaxe{
+	
+width: 45%;
+margin-left: auto; 
+margin-right: auto; 
+float: right;
+height: auto;
+margin-top: 4%;
+
 	
 	
 }
