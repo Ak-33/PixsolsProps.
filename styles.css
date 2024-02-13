@@ -4,28 +4,33 @@ font-family: Calibri, sans-serif;
 background-color: #B3A482;
 }
  
+.text{
+	font-size: 122%;
+	clear: both;
+	margin: auto;
+	margin-top: 1%;
+	max-width: 1000px;
+}
+
 .Bunder{
 background-image: url("pics/under-background.png"); 
 }
 
-
 #menu{ 
-background: white; 
+background: rgb(6, 49, 5); 
 background-image: url("pics/background-menu.jpg"); 
-font-size: 220%;
-margin-top: 6%;
-float: left;
-margin-left: 1%;
-padding-top: 1%;
-padding-left: 3%;
-padding-right: 4%;
-padding-bottom: 45%; 
+font-size: 160%;
 border-style: outset;
 border-width: 6px;
 border-top-color:gray;
 border-left-color:gray;
 border-right-color:black;
 border-bottom-color:black;
+
+}
+
+.menu_words{
+text-align: center;
 }
 
 #dmenu{
@@ -37,27 +42,176 @@ padding-left: 2%;
 display: none; 
 }
 
+/* Title Stuff ---------------------------------------------------------------------------------------------------------------------*/
+
+.title{
+	clear: both;
+	margin: auto;
+	margin-top: 1%;
+	background-color: blue;
+	width: 30%;
+	font-size: 125%;
+	height: auto;
+	border-style: outset;
+	border-width: 5px;
+	border-top-color:gray;
+	border-left-color:gray;
+	border-right-color:black;
+	border-bottom-color:black;
+	background-image: url("pics/background-title.png"); 
+	text-shadow: 2px 1px 2px gray;
+	}
+	
+	.stitle{
+	text-align: center;
+	margin-top: -6%;
+	}
+	
+	.utitle{
+	font-size: 115%;
+	margin: auto;
+	background-color: orange;
+	width: 30%;
+	margin-top: 1%;
+	border-style: outset;
+	border-width: 5px;
+	border-top-color:gray;
+	border-left-color:gray;
+	border-right-color:black;
+	border-bottom-color:black;
+	background-image: url("pics/under-background-menu.png"); 
+	text-shadow: 2px 1px 2px #FFC64C;
+	}
+	
+	.Mmtitle{
+	text-align: center;
+	margin-top: 1%;
+	}
+	
+	.llink{
+	list-style-type: none;
+	padding-bottom: 10%;
+	}
+
+	.link{
+	text-decoration: none;
+	color: white;
+	padding: 0.5%;
+	border-radius: 12px;
+	background-color: rgb(255, 255, 255, 0.1); 
+	}
+		
+	.link:hover{
+	background-color: rgba(255, 255, 255, 0.500); 
+	box-shadow: 1px 1px 1px 0 rgb(255, 255, 255,0.1), -1px -1px 1px 0 rgb(255, 255, 255,0.1);
+	}
+
+/*Image Stuff ---------------------------------------------------------------------------------------------------------------------*/ 
 
 
-.mySlides16-9{
-display:none;
-width: 90%;
-height: auto;
-border-style: solid;
-border-color: black;
+
+	/* Load in  */
+	@keyframes trasnitionIn{
+		from{
+		opacity: 0;	
+		transform: translateY(500px);
+		}
+
+		to{
+		opacity: 1;	
+		transform: translateY(0);
+		}
+	}
+
+.flex_first{
+display: flex;	
+flex-wrap: wrap;
+max-width: 2000px;
+max-height: auto;
+padding: 15px;
+justify-content: center;
+margin: auto;
+gap: 1em;
+animation: trasnitionIn 1.2s;
 }
 
-.slide_show {
-position: relative;
-margin-left: 37%;
+img{
+width: 420px;
+height: auto;
+border-width: 4px;
+border-style: solid;
+border-color: black;
+transition: .3s;
+}
+
+.imsaber:hover{
+	border-color: lime;
+	filter: brightness(75%); 
+}
+
+.imsh:hover{
+	border-top-color: red;
+	border-left-color: rgb(219, 218, 218);
+	border-right-color: rgb(219, 218, 218);
+	border-bottom-color: blue;
+	filter: brightness(75%); 
+	}
+	
+.imhammer:hover{
+	border-color: lightgray;
+	filter: brightness(75%); 
+	}
+
+.imhat:hover{
+	border-color: gold;
+	filter: brightness(75%); 
+	}
+
+
+.imchaos:hover{
+	border-bottom-color: red;
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color:orange;
+	filter: brightness(75%); 
+	}
+
+.imaxe:hover{
+	border-color: #82F7F7;;
+	filter: brightness(75%); 
+	}
+
+
+.split-saber:hover{
+filter: brightness(75%); 
+}
+
+.damaged-saber:hover{
+filter: brightness(75%); 
+}
+
+	
+
+
+/* Image Slider ------------------------------------------------------------------------------------------------------------------- */
+.mySlides16-9{
+display:none;
+border-style: solid;
+border-color: black;
+margin: auto;
 margin-top: 2%;
+width: 45%;
+height: auto;
+}
+
+.imgbuttonsLR {
+display: flex;
+justify-content: center;
+margin-top: 0.2%;
 }
 
 .slide_buttonL{
 border-style: none;	
-position: absolute;
-margin-top: -28%;
-margin-left: 0.3%;
 font-size:165%;
 background-color: #969997;
 }
@@ -65,13 +219,11 @@ background-color: #969997;
 .slide_buttonL:hover {
 background-color: rgb(0, 0, 0,0.8);
 color: white;
-transition: all .1s ease-in;}
+transition: all .2s ease-in;
+}
 
 .slide_buttonR{
 border-style: none;
-position: absolute;
-margin-top: -28%;
-margin-left: 87.2%;
 font-size:165%;
 background-color: #969997;
 }
@@ -79,64 +231,13 @@ background-color: #969997;
 .slide_buttonR:hover {
 background-color: rgb(0, 0, 0,0.8);
 color: white;
-transition: all .1s ease-in;}
+transition: all .2s ease-in;}
+/* End Image Slider ------------------------------------------------------------------------------------------------------------------- */
 
-.title{
-margin-left: 50%;
-margin-top: 1%;
-background-color: blue;
-width: 35%;
-border-style: outset;
-border-width: 5px;
-border-top-color:gray;
-border-left-color:gray;
-border-right-color:black;
-border-bottom-color:black;
-background-image: url("pics/background-title.png"); 
-text-shadow: 2px 1px 2px gray;
-}
 
-.stitle{
-text-align: center;
-margin-top: -6%;
-}
 
-.utitle{
-font-size: 115%;
-margin-left: 50%;
-background-color: orange;
-width: 35%;
-margin-top: 1%;
-border-style: outset;
-border-width: 5px;
-border-top-color:gray;
-border-left-color:gray;
-border-right-color:black;
-border-bottom-color:black;
-background-image: url("pics/under-background-menu.png"); 
-text-shadow: 2px 1px 2px #FFC64C;
-}
 
-.Mmtitle{
-text-align: center;
-margin-top: 1%;
-}
-
-.link{
-text-decoration: none;
-color: white;
-}
-
-.llink{
-list-style-type: none;
-padding-bottom: 10%;
-}
-
-.link:hover{
-background-color: rgb(255, 255, 255, 0.1); 
-box-shadow: 1px 1px 1px 0 rgb(255, 255, 255,0.1), -1px -1px 1px 0 rgb(255, 255, 255,0.1);
-}
-
+/*Other --------------------------------------------------------------------------- */
 .foot{
 position: fixed;
 bottom: 0;
@@ -145,8 +246,7 @@ background-color: black;
 color: white;
 }
 
- 
- .ufoot{
+  .ufoot{
 float:clear;
 position: fixed;
 bottom: 0;
@@ -158,182 +258,10 @@ color: white;
 .dmain{
 background-color: rgb(255, 255, 255,0.5);
 width: 90%;
-margin:auto;
-padding-bottom: 55%;
-}
-
-.text{
-font-size: 111%;
-float: clear;
-margin-left: 42%;
-margin-right: 8%;
-margin-top: 2%;
-}
-
-.imsaber{
-float: left;
-width: 30%;
+padding-bottom: 12%;
 height: auto;
-margin-left: 7%;
-border-style: solid;
-transition: transform .5s; 
-border-color: black;
+margin: auto;
 }
-
-.imsaber:hover{
-border-style: solid;
-border-color: lime;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-filter: brightness(75%);
-}
-
-.imsh{
-float: right;
-float: clear;
-width: 30%;
-height: auto;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imsh:hover{
-border-style: solid;
-border-top-color: red;
-border-left-color: gray;
-border-right-color: gray;
-border-bottom-color: blue; 
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-.imhammer{
-float: left;
-width: 30%;
-height: auto;
-margin-left: 7%;
-margin-top: 4%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imhammer:hover{
-border-style: solid;
-border-color: blue;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-border-color: gray;
-}
-
-.imhat{
-float: right;
-width: 30%;
-height: auto;
-margin-top: 4%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imhat:hover{
-border-style: solid;
-border-color: gold;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-.imchaos{
-clear: both;
-float: left; 
-width: 30%;
-height: auto;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imchaos:hover{
-border-style: solid;
-border-bottom-color: red;
-border-right-color: red;
-border-left-color: orange;
-border-top-color:orange;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-
-.imaxe{
-float: left;
-margin-left: 3%;
-width: 30%;
-height: auto;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.imaxe:hover{
-border-style: solid;
-border-color: #82F7F7;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-/* under */
-.split-saber{
-float: left;
-width: 30%;
-height: auto;
-margin-left: 4%;
-margin-top: 4%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.split-saber:hover{
-border-style: solid;
-border-bottom-color: red;
-border-right-color: purple;
-border-left-color: red;
-border-top-color:purple;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-.damaged-saber{
-float: right;
-width: 30%;
-height: auto;
-margin-left: 4%;
-margin-top: 4%;
-border-style: solid;
-border-color: black;
-transition: transform .5s;
-}
-
-.damaged-saber:hover{
-border-style: solid;
-border-color: yellow;
- -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-filter: brightness(75%); 
-}
-
-
-
-
-/* done under */
 
 
 .rightIm{
@@ -356,17 +284,64 @@ transition: transform .5s;
 }
 
 
-	 
+
+
+  /* For mobile phones: -----------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width:500px) {
-  /* For mobile phones: */
+
  #menu{
 display: none;
 	    }
 			
 .Dmobile_menu{
    display: inline-block;
-  }
-			
+}
+
+
+/* Image Stuff------------------------------------------------------------------------------------------------------------------------- */
+/* Image Slider */
+.mySlides16-9{
+	display:none;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	margin-top: 4.5%;
+	width: 95%;
+	height: auto;
+	}
+	
+	.slide_buttonL{
+	margin: auto;
+	}
+	
+	
+	.slide_buttonR{
+	margin: auto;
+	}
+/* End Image Slider ------------------------------------------------------------------------------------------------------------------- */
+
+
+.flex_first{
+	display: flex;	
+	flex-wrap: wrap;
+	max-width: 1200x;
+	max-height: auto;
+	margin: auto;
+	gap: 1em;
+	animation: trasnitionIn 1.2s;
+}
+
+
+img{
+	width: 175px;
+	height: auto;
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+	transition: .3s;
+}
+/* Image Stuff end------------------------------------------------------------------------------------------------------------------------- */
+
 .dropdown-menu{
 display: none;
 position: absolute;	
@@ -379,27 +354,20 @@ border-right-color:black;
 border-bottom-color:black;
 width: 60%;
 height: 65%; 
-margin-top: 17%; 
-margin-left: 8%; 
+margin-top: 7%; 
+margin-left: 6%;
 z-index: 1;
-
 }
 
 #toggle:checked ~ .dropdown-menu {
   display: block;
-  
-   
+ 
 }
 
 #toggle{
    display: none;
   }
 
-#toggle:hover{
-	-ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-}
-	
 .mobileMenu{
 display: inline;
 float: left;
@@ -428,7 +396,6 @@ background-color: rgb(255, 255, 255,0.5);
 	margin-right: auto; 
 	margin-top: 1.5%;	
 	width: 75%; 
-	
 }
 
 .Mmtitle{
@@ -448,13 +415,6 @@ width: 95%;
 background-color: #B3A482;
 }
 
-.dmain{
-background-color: rgb(255, 255, 255,0.5);
-width: 90%;
-margin:auto;
-padding-bottom: 145%;
-}
-
 .foot{
 margin-left: -3%;
 font-size: 65%;
@@ -463,79 +423,8 @@ padding-right: 1%;
 
 .text{
 float: clear;
-margin-left: 6%;
+text-align: center;
+font-size: 15.2pt;
 }
 
-
-
-
-
-
-/* images */ 
-
-.slide_show{
-clear: both; 
-margin-left: 2%;
-margin-right: 2%; 
-position: absolute;
-margin-top: 2%;
 }
-	
-
-.slide_buttonR{
-margin-left: 85%;
-}
-
-.imsaber{
-	width: 45%;
-	margin-left: auto; 
-	margin-right: auto; 
-	
-}
-
-.imsh{
-	width: 45%;
-	margin-left: auto; 
-	margin-right: auto; 
-	}
-
-.imhammer{
-	width: 45%;
-	margin-left: auto; 
-	margin-right: auto; 
-	
-}
-
-.imhat{
-	width: 45%;
-	margin-left: auto; 
-	margin-right: auto; 
-	
-}
-
-.imchaos{
-width: 45%;
-margin-left: auto; 
-margin-right: auto; 
-float: left;
-height: auto;
-margin-top: 4%;
-	 
-	
-}
-
-.imaxe{
-	
-width: 45%;
-margin-left: auto; 
-margin-right: auto; 
-float: right;
-height: auto;
-margin-top: 4%;
-
-	
-	
-}
-
-
-
