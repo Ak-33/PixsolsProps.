@@ -285,8 +285,8 @@ transition: transform .5s;
 
 
 
-
-  /* For mobile phones: -----------------------------------------------------------------------------------------------------------------------*/
+/*Mobile phones: -----------------------------------------------------------------------------------------------------------------------*/
+/*Mobile phones: -----------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width:500px) {
 
  #menu{
@@ -324,7 +324,7 @@ display: none;
 .flex_first{
 	display: flex;	
 	flex-wrap: wrap;
-	max-width: 1200x;
+	max-width: 875x;
 	max-height: auto;
 	margin: auto;
 	gap: 1em;
@@ -333,7 +333,7 @@ display: none;
 
 
 img{
-	width: 175px;
+	width: 320px;
 	height: auto;
 	border-width: 4px;
 	border-style: solid;
