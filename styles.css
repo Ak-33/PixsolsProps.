@@ -178,6 +178,13 @@ transition: .3s;
 	filter: brightness(75%); 
 	}
 
+.imamp:hover{
+	border-top-color: black;
+	border-right-color: red;
+	border-left-color: blue;
+	border-bottom-color:white;
+	filter: brightness(75%); 
+}
 
 .split-saber:hover{
 filter: brightness(75%); 
