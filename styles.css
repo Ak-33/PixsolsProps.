@@ -328,6 +328,17 @@ display: none;
 	height: auto;
 	}
 	
+	
+.videoSlides {
+	margin: auto;
+	margin-top: 2%;
+	width: 95%; 
+	height: 95vh; 
+	}
+
+
+
+
 	.slide_buttonL{
 	margin: auto;
 	}
