@@ -186,6 +186,12 @@ transition: .3s;
 	filter: brightness(75%); 
 }
 
+.imblast:hover{
+	border-left-color: red;
+	filter: brightness(75%); 
+	}
+
+
 .split-saber:hover{
 filter: brightness(75%); 
 }
@@ -207,6 +213,17 @@ margin-top: 2%;
 width: 45%;
 height: auto;
 }
+
+.videoSlides {
+	display:none;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	margin-top: 2%;
+	width: 45%; 
+	height: 45vh; 
+  }
+  
 
 .imgbuttonsLR {
 display: flex;
