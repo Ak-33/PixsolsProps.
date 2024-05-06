@@ -60,11 +60,12 @@ display: none;
 	border-bottom-color:black;
 	background-image: url("pics/background-title.png"); 
 	text-shadow: 2px 1px 2px gray;
-	}
+	
+}
 	
 	.stitle{
 	text-align: center;
-	margin-top: -6%;
+	line-height: 0%;
 	}
 	
 	.utitle{
@@ -81,11 +82,16 @@ display: none;
 	border-bottom-color:black;
 	background-image: url("pics/under-background-menu.png"); 
 	text-shadow: 2px 1px 2px #FFC64C;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	
 	}
 	
 	.Mmtitle{
 	text-align: center;
 	margin-top: 1%;
+	line-height: 90%;
 	}
 	
 	.llink{
@@ -133,7 +139,7 @@ animation: trasnitionIn 1.2s;
 }
 
 img{
-width: 420px;
+width: 400px;
 height: auto;
 border-width: 4px;
 border-style: solid;
@@ -186,20 +192,18 @@ transition: .3s;
 	filter: brightness(75%); 
 }
 
+.imsaber_v2:hover{
+	border-top-color: rgb(147, 51, 147);
+	border-right-color: red;
+	border-left-color: rgb(147, 51, 147);
+	border-bottom-color:red;
+	filter: brightness(75%); 
+}
+
 .imblast:hover{
 	border-left-color: red;
 	filter: brightness(75%); 
 	}
-
-
-.split-saber:hover{
-filter: brightness(75%); 
-}
-
-.damaged-saber:hover{
-filter: brightness(75%); 
-}
-
 	
 
 
@@ -210,15 +214,15 @@ border-style: solid;
 border-color: black;
 margin: auto;
 margin-top: 2%;
-width: 45%;
+width: 55%;
 height: auto;
 }
 
 .videoSlides {
 margin: auto;
 margin-top: 2%;
-width: 45%; 
-height: 45vh; 
+width: 95vh; 
+height: 55vh; 
 }
   
 
@@ -328,12 +332,11 @@ display: none;
 	height: auto;
 	}
 	
-	
 .videoSlides {
 	margin: auto;
 	margin-top: 2%;
-	width: 95%; 
-	height: 95vh; 
+	width: 60vh; 
+	height: 35vh; 
 	}
 
 
