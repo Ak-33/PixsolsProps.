@@ -222,8 +222,8 @@ height: auto;
 .videoSlides {
 margin: auto;
 margin-top: 2%;
-width: 95%; 
-height: 55vh; 
+width: 60%; 
+height: 67vh; 
 }
   
 
@@ -336,7 +336,7 @@ display: none;
 .videoSlides {
 	margin: auto;
 	margin-top: 2%;
-	width: 60%; 
+	width: 95%; 
 	height: 35vh; 
 	}
 
