@@ -224,6 +224,7 @@ margin: auto;
 margin-top: 2%;
 width: 60%; 
 height: 67vh; 
+display:none;
 }
   
 
@@ -331,6 +332,7 @@ display: none;
 	margin-top: 4.5%;
 	width: 95%;
 	height: auto;
+	
 	}
 	
 .videoSlides {
@@ -338,6 +340,7 @@ display: none;
 	margin-top: 2%;
 	width: 95%; 
 	height: 35vh; 
+
 	}
 
 	.slide_buttonL{
