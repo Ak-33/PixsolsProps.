@@ -49,7 +49,8 @@ display: none;
 	margin: auto;
 	margin-top: 1%;
 	background-color: blue;
-	width: 30%;
+	width: 35%;
+	min-width: 200px;
 	font-size: 125%;
 	height: auto;
 	border-style: outset;
@@ -65,7 +66,7 @@ display: none;
 	
 	.stitle{
 	text-align: center;
-	line-height: 0%;
+	margin-top: 0;
 	}
 	
 	.utitle{
@@ -85,13 +86,13 @@ display: none;
 	align-items: center;
 	justify-content: center;
 	height: auto;
-	
+	margin-bottom: 0;
 	}
 	
 	.Mmtitle{
 	text-align: center;
-	margin-top: 1%;
-	line-height: 90%;
+	margin-top: 2%;
+	margin-bottom: 0;
 	}
 	
 	.llink{
@@ -221,7 +222,7 @@ height: auto;
 .videoSlides {
 margin: auto;
 margin-top: 2%;
-width: 95vh; 
+width: 95%; 
 height: 55vh; 
 }
   
@@ -335,12 +336,9 @@ display: none;
 .videoSlides {
 	margin: auto;
 	margin-top: 2%;
-	width: 60vh; 
+	width: 60%; 
 	height: 35vh; 
 	}
-
-
-
 
 	.slide_buttonL{
 	margin: auto;
@@ -373,6 +371,11 @@ img{
 	transition: .3s;
 }
 /* Image Stuff end------------------------------------------------------------------------------------------------------------------------- */
+
+
+.title{
+	font-size: 150%;
+}
 
 .dropdown-menu{
 display: none;
