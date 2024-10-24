@@ -205,7 +205,11 @@ transition: .3s;
 	border-left-color: red;
 	filter: brightness(75%); 
 	}
-	
+
+.imcommando:hover{
+	border-color: orange;
+	filter: brightness(75%); 
+	}
 
 
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
