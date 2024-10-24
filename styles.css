@@ -142,74 +142,82 @@ animation: trasnitionIn 1.2s;
 img{
 width: 400px;
 height: auto;
-border-width: 4px;
+/* border-width: 4px;
 border-style: solid;
 border-color: black;
-transition: .3s;
+transition: .3s; */
 }
 
-.imsaber:hover{
-	border-color: lime;
-	filter: brightness(75%); 
+
+.imdiv{
+display: inline-block;
+border: 4px solid black;
+overflow: hidden;
+}
+.imdiv img {
+    display: block;
+    width: 400px; 
+    height: auto; 
+    transition: filter 0.3s ease; 
+}
+img:hover {
+    filter: brightness(75%); 
+	transition: .3s;
 }
 
-.imsh:hover{
+
+#divsaber:hover{
+	border-color: lime; 
+}
+
+#divsh:hover{
 	border-top-color: red;
 	border-left-color: rgb(219, 218, 218);
 	border-right-color: rgb(219, 218, 218);
 	border-bottom-color: blue;
-	filter: brightness(75%); 
-	}
+}
 	
-.imhammer:hover{
-	border-color: lightgray;
-	filter: brightness(75%); 
-	}
+#divhammer:hover{
+	border-color: gray;
+}
 
-.imhat:hover{
+#divhat:hover{
 	border-color: gold;
-	filter: brightness(75%); 
-	}
+}
 
 
-.imchaos:hover{
+#divchaos:hover{
 	border-bottom-color: red;
 	border-right-color: red;
 	border-left-color: orange;
-	border-top-color:orange;
-	filter: brightness(75%); 
-	}
+	border-top-color:orange; 
+}
 
-.imaxe:hover{
+#divaxe:hover{
 	border-color: #82F7F7;;
-	filter: brightness(75%); 
-	}
+}
 
-.imamp:hover{
+#divamp:hover{
 	border-top-color: black;
 	border-right-color: red;
 	border-left-color: blue;
 	border-bottom-color:white;
-	filter: brightness(75%); 
 }
 
-.imsaber_v2:hover{
+#divsaber_v2:hover{
 	border-top-color: rgb(147, 51, 147);
 	border-right-color: red;
 	border-left-color: rgb(147, 51, 147);
 	border-bottom-color:red;
-	filter: brightness(75%); 
 }
 
-.imblast:hover{
+#divblast:hover{
 	border-left-color: red;
-	filter: brightness(75%); 
-	}
+}
 
-.imcommando:hover{
-	border-color: orange;
-	filter: brightness(75%); 
-	}
+#divcommando:hover{
+	border-color: orange; 
+}
 
 
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
@@ -372,10 +380,6 @@ display: none;
 img{
 	width: 320px;
 	height: auto;
-	border-width: 4px;
-	border-style: solid;
-	border-color: black;
-	transition: .3s;
 }
 /* Image Stuff end------------------------------------------------------------------------------------------------------------------------- */
 
