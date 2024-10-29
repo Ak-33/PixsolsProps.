@@ -3,7 +3,11 @@ margin: 0 auto;
 font-family: Calibri, sans-serif;
 background-color: #B3A482;
 }
- 
+
+body.dark {
+	background-color: #756B55;
+}
+
 .text{
 	font-size: 122%;
 	clear: both;
@@ -139,28 +143,32 @@ gap: 1em;
 animation: trasnitionIn 1.2s;
 }
 
+.mySlides16-9.enlarged{
+	z-index: 10;
+}
+
 img{
 width: 400px;
 height: auto;
 }
-
 
 .imdiv{
 display: flex;
 border: 4px solid black;
 overflow: hidden;
 }
+
 .imdiv img {
     display: flex;
     width: 400px; 
     height: auto; 
     transition: filter 0.3s ease; 
 }
-img:hover {
+
+.home_page:hover {
     filter: brightness(75%); 
 	transition: .3s;
 }
-
 
 #divsaber:hover{
 	border-color: lime; 
@@ -168,8 +176,8 @@ img:hover {
 
 #divsh:hover{
 	border-top-color: red;
-	border-left-color: rgb(219, 218, 218);
-	border-right-color: rgb(219, 218, 218);
+	border-left-color: white;
+	border-right-color: white;
 	border-bottom-color: blue;
 }
 	
@@ -197,7 +205,7 @@ img:hover {
 	border-top-color: black;
 	border-right-color: red;
 	border-left-color: blue;
-	border-bottom-color:white;
+	border-bottom-color:rgb(219, 218, 218);
 }
 
 #divsaber_v2:hover{
@@ -225,7 +233,14 @@ margin: auto;
 margin-top: 2%;
 width: 55%;
 height: auto;
+transition: transform 0.2s ease; /* Smooth transition for scaling */
 }
+
+.enlarged {
+    transform: scale(1.15); /* Adjust scale for enlargement */
+    z-index: 1; /* Ensure enlarged image appears on top */
+}
+
 
 .videoSlides {
 margin: auto;
@@ -340,8 +355,13 @@ display: none;
 	margin-top: 4.5%;
 	width: 95%;
 	height: auto;
-	
-	}
+	transition: transform 0.2s ease; /* Smooth transition for scaling */	
+}
+
+.enlarged {
+	transform: scale(1.15); /* Adjust scale for enlargement */
+	z-index: 1; /* Ensure enlarged image appears on top */
+}
 	
 .videoSlides {
 	margin: auto;
@@ -359,6 +379,8 @@ display: none;
 	.slide_buttonR{
 	margin: auto;
 	}
+
+
 /* End Image Slider ------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -371,6 +393,7 @@ display: none;
 	gap: 1em;
 	animation: trasnitionIn 1.2s;
 }
+
 
 .imdiv img {
     margin: 0;
