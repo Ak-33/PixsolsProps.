@@ -223,7 +223,12 @@ overflow: hidden;
 	border-color: orange; 
 }
 
-
+#divblaster-rifle:hover{
+	border-top-color: white;
+	border-right-color: #B87333;
+	border-left-color: red;
+	border-bottom-color:black;
+}
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
