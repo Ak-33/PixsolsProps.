@@ -229,6 +229,14 @@ overflow: hidden;
 	border-left-color: red;
 	border-bottom-color:black;
 }
+
+
+#divhelldivers:hover{
+	border-top-color: yellow;
+	border-right-color: black;
+	border-left-color: black;
+	border-bottom-color:black;
+}
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
