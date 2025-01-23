@@ -244,6 +244,13 @@ overflow: hidden;
 	border-left-color: cyan;
 	border-bottom-color:silver;
 }
+
+#saber-highrepublic:hover{
+	border-top-color: white;
+	border-right-color: Black;
+	border-left-color: Yellow;
+	border-bottom-color:white;
+}
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
