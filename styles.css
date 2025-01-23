@@ -237,6 +237,13 @@ overflow: hidden;
 	border-left-color: black;
 	border-bottom-color:black;
 }
+
+#saber-wooden:hover{
+	border-top-color: silver;
+	border-right-color: #B87333;
+	border-left-color: cyan;
+	border-bottom-color:silver;
+}
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
