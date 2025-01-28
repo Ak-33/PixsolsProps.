@@ -251,6 +251,10 @@ overflow: hidden;
 	border-left-color: Yellow;
 	border-bottom-color:white;
 }
+
+#metallica:hover{
+	border-color: red;
+}
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
