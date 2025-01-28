@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" sizes="64x64" href="../pics/logo.png">
+<meta name="google" content="notranslate">
+<meta charset="UTF-8">
+<title> Metallica Logo </title>
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="flexslider.css">
+<meta name="viewport" content="width= device-width, initial-scale=1">
+</head>
+
+<body>
+<script src="../slideshow.js"></script>
+<script src="../enlarge.js"></script>
+
+<div class="title">
+  <h1 class="Mmtitle"> Metallica "M" Wall Art </h1>
+  <p class="stitle"> "Give me Fuel, Give Me Fire, Give me that Which I Desire"</p>
+</div>
+
+<div class="dmain">
+<!-- menu -->
+<div> &nbsp; </div>
+
+<div id="menu">
+  <p class="menu_words">
+    <a class="link" href="../index.html">Home Page</a>  &nbsp;  &nbsp;  &nbsp;
+    <a class="link" href="../Materials.html">Materials</a>  &nbsp;  &nbsp; &nbsp;
+    <a class="link" href="https://www.youtube.com/channel/UCqxWLEqQWDPa40XVuFG_iyg" target="_blank" >YouTube</a>  &nbsp;  &nbsp; &nbsp;
+    <a class="link" href="mailto:Legoscota@gmail.com">Contact</a>
+  </p>
+</div>
+
+
+<!-- mobile menu-->
+<div class="Dmobile_menu">
+<label class="Ctoggle" for="toggle">||| Menu</label>
+<input type="checkbox" id="toggle">
+
+<ul class="dropdown-menu">
+ <li class="llink" ><a class="link" href="../index.html">Pixsol's Props Home</a></li>
+ <li class="llink"><a class="link" href="../Materials.html">Materials</a></li>
+ <li class="llink"><a class="link" href="https://www.youtube.com/channel/UCqxWLEqQWDPa40XVuFG_iyg" target="_blank" >YouTube</a></li>
+ <li class="llink"><a class="link" href="mailto:Legoscota@gmail.com">Contact</a></li>
+</ul>
+</div>
+<!-- end of mobile menu-->
+
+<p class="text">
+This is my 3D-printed illuminated Metallica wall art, which I modeled myself. It was printed in three parts using my Elegoo Neptune 4 Plus with PLA filament. It has 135 NeoPixel LEDs, all driven by a Pi Pico running CircuitPython.
+Because of the number of LEDs I am running, I ended up not being able to power this project off of batteries, which was the original idea. Instead, I had to get a 5V 10-amp power supply.
+<br><br>
+Once everything came off the printer, I sanded down the connectors a bit and then glued everything together. There was still a small gap between each piece once glued. In order to fill these gaps, I used a 3D printing pen to inject
+PLA filament into the gaps. After I had all the gaps filled, I sanded the entire "M" smooth. For added smoothness, I added a few layers of UV resin to the top of the "M" and then sanded that as well. Once I was finally done with all
+the sanding, I sprayed on a few layers of automotive filler primer, making sure to let each layer dry fully before adding the next. Now that the piece was both smoothed and primed, I sprayed on a base color of silver.
+To achieve the big paint chips, I put on some petroleum jelly in the areas I wanted the paint to look chipped and sprayed it with black spray paint. A few coats of dry brushing and glossy clear coat, and it was finished.
+<br><br>
+If you want to download the models, here is a link to them on <a class="link" href="https://www.thingiverse.com/thing:6929495">Thingiverse</a>
+</p>
+
+
+
+<div class="slide_show">
+  <img class="mySlides16-9" src="../pics/m/img_1.jpg" alt="image my custom Metallica M">
+  <img class="mySlides16-9" src="../pics/m/proto_1.jpg"  alt="proto image my custom Metallica M">
+  <img class="mySlides16-9" src="../pics/m/proto_2.jpg"  alt="proto image my custom Metallica M">
+  <iframe class="videoSlides" src="https://www.youtube.com/embed/skVgJzaTZEM" title="video"></iframe>
+
+  <div class="imgbuttonsLR">
+    <button type="button" class="slide_buttonL" onclick="plusDivs(-1)">&#10094;</button> &nbsp; &nbsp; &nbsp;
+    <button type="button" class="slide_buttonR" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+</div>
+
+
+</div>
+</body>
+</html>
