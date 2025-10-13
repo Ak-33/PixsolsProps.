@@ -55,7 +55,7 @@ display: none;
 	background-color: blue;
 	width: 35%;
 	min-width: 200px;
-	font-size: 125%;
+	font-size: 175%;
 	height: auto;
 	border-style: outset;
 	border-width: 5px;
@@ -71,28 +71,10 @@ display: none;
 	.stitle{
 	text-align: center;
 	margin-top: 0;
+	font-size: 85%;
 	}
 	
-	.utitle{
-	font-size: 115%;
-	margin: auto;
-	background-color: orange;
-	width: 30%;
-	margin-top: 1%;
-	border-style: outset;
-	border-width: 5px;
-	border-top-color:gray;
-	border-left-color:gray;
-	border-right-color:black;
-	border-bottom-color:black;
-	background-image: url("pics/under-background-menu.png"); 
-	text-shadow: 2px 1px 2px #FFC64C;
-	align-items: center;
-	justify-content: center;
-	height: auto;
-	margin-bottom: 0;
-	}
-	
+
 	.Mmtitle{
 	text-align: center;
 	margin-top: 2%;
@@ -158,16 +140,16 @@ border: 4px solid black;
 overflow: hidden;
 }
 
+.imdiv:hover{
+transition: all 0.55s ease-in-out;
+box-shadow: 7px 10px rgba(0, 0, 0, 0.250); 
+}
+
 .imdiv img {
     display: flex;
     width: 400px; 
     height: auto; 
-    transition: filter 0.3s ease; 
-}
-
-.home_page:hover {
-    filter: brightness(75%); 
-	transition: .3s;
+    transition: filter 0.3s ease;
 }
 
 #divsaber:hover{
