@@ -252,6 +252,55 @@ overflow: hidden;
 	border-bottom-color:white;
 }
 
+#gow-hammer:hover{
+	border-top-color: silver;
+	border-right-color: rgb(40, 130, 232);
+	border-left-color: rgb(40, 130, 232);
+	border-bottom-color:silver;
+}
+
+#blasters:hover{
+	border-top-color: red;
+	border-right-color: silver;
+	border-left-color: silver;
+	border-bottom-color:black;
+}
+
+#stormtrooper-toy:hover{
+	border-top-color: limegreen;
+	border-right-color: white;
+	border-left-color: red;
+	border-bottom-color:black;
+}
+
+#mace:hover{
+	border-top-color: gold;
+	border-right-color: gold;
+	border-left-color: gold;
+	border-bottom-color:red;
+}
+
+#mercenary:hover{
+	border-top-color: white;
+	border-right-color: lightblue;
+	border-left-color: lightblue;
+	border-bottom-color:white;
+}
+
+#narg:hover{
+	border-top-color: purple;
+	border-right-color: purple;
+	border-left-color: purple;
+	border-bottom-color:purple;
+}
+
+
+#bung:hover{
+	border-top-color: green;
+	border-right-color: greenyellow;
+	border-left-color: green;
+	border-bottom-color:greenyellow;
+}
 #metallica:hover{
 	border-color: red;
 }
