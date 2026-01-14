@@ -286,6 +286,13 @@ box-shadow: 7px 10px rgba(0, 0, 0, 0.250);
 #metallica:hover{
 	border-color: red;
 }
+#clubs:hover{
+	border-top-color: rgb(228, 225, 225);
+	border-right-color: red;
+	border-left-color: red;
+	border-bottom-color:red;
+}
+
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
 display:none;
