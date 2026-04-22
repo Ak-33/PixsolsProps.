@@ -141,7 +141,7 @@ overflow: hidden;
 }
 
 .imdiv:hover{
-transition: all 0.55s ease-in-out;
+transition: all 0.20s ease-in-out;
 box-shadow: 7px 10px rgba(0, 0, 0, 0.250); 
 }
 
