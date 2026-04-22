@@ -292,6 +292,12 @@ box-shadow: 7px 10px rgba(0, 0, 0, 0.250);
 	border-left-color: red;
 	border-bottom-color:red;
 }
+#anvil:hover{
+	border-top-color: silver;
+	border-right-color: rgb(171, 112, 3);
+	border-left-color: silver;
+	border-bottom-color:silver;
+}
 
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 .mySlides16-9{
