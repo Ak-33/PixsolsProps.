@@ -48,33 +48,34 @@ display: none;
 
 /* Title Stuff ---------------------------------------------------------------------------------------------------------------------*/
 
-.title{
-	clear: both;
-	margin: auto;
-	margin-top: 1%;
-	background-color: blue;
-	width: 35%;
-	min-width: 200px;
-	font-size: 175%;
-	height: auto;
-	border-style: outset;
-	border-width: 5px;
-	border-top-color:gray;
-	border-left-color:gray;
-	border-right-color:black;
-	border-bottom-color:black;
-	background-image: url("pics/background-title.png"); 
-	text-shadow: 2px 1px 2px gray;
-	
+.title {
+    clear: both;
+    margin: 0.5% auto 0;
+	margin-bottom: 0.5%;
+    background-color: blue;
+    background-image: url("pics/background-title.png");
+    width: 75%;
+    min-width: 200px;
+    height: auto;
+    font-size: 200%;
+    border-style: outset;
+    border-width: 5px;
+    border-top-color: gray;
+    border-left-color: gray;
+    border-right-color: black;
+    border-bottom-color: black;
+    text-shadow: 2px 1px 2px gray;
 }
 	
 	.stitle{
 	text-align: center;
 	margin-top: 0;
-	font-size: 85%;
-	}
+	font-size: 75%;
+	margin-left: 8%;
+	margin-right: 8%;
+	clear: both;
+}
 	
-
 	.Mmtitle{
 	text-align: center;
 	margin-top: 2%;
@@ -123,10 +124,6 @@ justify-content: center;
 margin: auto;
 gap: 1em;
 animation: trasnitionIn 1.2s;
-}
-
-.mySlides16-9.enlarged{
-	z-index: 10;
 }
 
 img{
@@ -299,7 +296,37 @@ box-shadow: 7px 10px rgba(0, 0, 0, 0.250);
 	border-bottom-color:silver;
 }
 
+#beef:hover{
+	border-top-color: rgb(191, 108, 100);
+	border-right-color: rgb(191, 108, 100);
+	border-left-color: rgb(191, 108, 100);
+	border-bottom-color:rgb(191, 108, 100);
+}
+
+#power-s:hover{
+	border-top-color: rgb(126, 208, 236);
+	border-right-color:  rgb(242, 242, 242);
+	border-left-color: rgb(242, 242, 242);
+	border-bottom-color:rgb(242, 242, 242);
+}
+
+#lantern:hover{
+	border-top-color: rgb(115, 115, 115);;
+	border-right-color: rgb(255, 227, 176);
+	border-left-color: rgb(255, 227, 176);
+	border-bottom-color:rgb(115, 115, 115);;
+}
+
+#web-shooter:hover{
+	border-top-color: red;
+	border-right-color: rgb(50, 125, 255);
+	border-left-color: rgb(50, 125, 255);
+	border-bottom-color:red;
+}
+
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
+
+
 .mySlides16-9{
 display:none;
 border-style: solid;
@@ -309,7 +336,18 @@ margin-top: 2%;
 width: 55%;
 height: auto;
 transition: transform 0.2s ease; /* Smooth transition for scaling */
+animation: fadeIn 0.55s ease-in;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.6;
+	 }
+    to {
+        opacity: 1;
+    }
+}
+
 
 .enlarged {
     transform: scale(1.15); /* Adjust scale for enlargement */
@@ -483,11 +521,6 @@ img{
 
 /* Image Stuff end------------------------------------------------------------------------------------------------------------------------- */
 
-
-.title{
-	font-size: 150%;
-}
-
 .dropdown-menu{
 display: none;
 position: absolute;	
@@ -534,13 +567,6 @@ padding-bottom: 10%;
 
 .Dlink:hover{
 background-color: rgb(255, 255, 255,0.5);
-}
-
-.title{
-	margin-left: auto;
-	margin-right: auto; 
-	margin-top: 1.5%;	
-	width: 75%; 
 }
 
 .Mmtitle{
