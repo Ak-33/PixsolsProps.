@@ -324,6 +324,13 @@ box-shadow: 7px 10px rgba(0, 0, 0, 0.250);
 	border-bottom-color:red;
 }
 
+#loki-gos:hover{
+	border-top-color: black;
+	border-right-color: green;
+	border-left-color: gold;
+	border-bottom-color:black;	
+}
+
 /* Image Slider ------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -335,7 +342,7 @@ margin: auto;
 margin-top: 2%;
 width: 55%;
 height: auto;
-transition: transform 0.2s ease; /* Smooth transition for scaling */
+transition: transform 0.2s ease; 
 animation: fadeIn 0.55s ease-in;
 }
 
